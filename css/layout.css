@@ -7,13 +7,11 @@
         display: inline-block;
         width: 600px;
         margin-left: calc(50% - 300px);
-        background-color: aquamarine;
     }
     .container > .row {
         display: inline-block;
         width: 1000px;
         margin-left: calc(50% - 500px);
-        background-color: aqua;
     }
         .container > .row > .column {
             display: inline-block;
@@ -31,14 +29,12 @@
     .container > .row {
         width: 800px;
         margin-left: calc(50% - 400px);
-        background-color: tomato;
 }
 }
 @media (max-width: 900px) { 
     .container > .row {
         width: 600px;
         margin-left: calc(50% - 300px);
-        background-color: yellow;
 }
 }
 @media (max-width: 700px) { 
@@ -49,13 +45,11 @@
         .container > .row {
             width: 100%;
             margin-left: 0;
-            background-color:rgb(255, 0, 170);
         }
         .container > .row-short {
             
             width: 100%;
             margin-left: 0;
-            background-color: rgb(127, 255, 159);
     }
         .container > .row > .column.left {
             width: 100%;
