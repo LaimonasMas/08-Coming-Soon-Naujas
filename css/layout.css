@@ -7,11 +7,13 @@
         display: inline-block;
         width: 600px;
         margin-left: calc(50% - 300px);
+        margin-right: calc(50% - 300px);
     }
     .container > .row {
         display: inline-block;
         width: 1000px;
         margin-left: calc(50% - 500px);
+        margin-right: calc(50% - 300px);
     }
         .container > .row > .column {
             display: inline-block;
@@ -29,12 +31,14 @@
     .container > .row {
         width: 800px;
         margin-left: calc(50% - 400px);
+        margin-right: calc(50% - 400px);
 }
 }
 @media (max-width: 900px) { 
     .container > .row {
         width: 600px;
         margin-left: calc(50% - 300px);
+        margin-right: calc(50% - 300px);
 }
 }
 @media (max-width: 700px) { 
@@ -45,11 +49,13 @@
         .container > .row {
             width: 100%;
             margin-left: 0;
+            margin-right: 0;
         }
         .container > .row-short {
             
             width: 100%;
             margin-left: 0;
+            margin-right: 0;
     }
         .container > .row > .column.left {
             width: 100%;
