@@ -8,20 +8,20 @@
     <!-- reset/init -->
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/layout.css"><!--Layout: tik struktura - pagrindinis isdestymas (stulpeliai, eilutes)-->
+    <link rel="stylesheet" href="./css/newLayout.css"><!--Layout: tik struktura - pagrindinis isdestymas (stulpeliai, eilutes)-->
     <!-- 3rd party css -->
     <!-- component -->
     <link rel="stylesheet" href="/css/clock.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/mouse.css">
     <!-- custom -->
-    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/newCustom.css">
 </head>
 
 <body>
     <div class="container hero bg-main-color">
-        <div class="row-short">
-            <img src="./img/logo.png" alt="Logo">
+        <div class="row-short-top">
+            <img class="logo" src="./img/logo.png" alt="Logo">
             <h1>Coming soon</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolore ad, eligendi quaerat ipsam deserunt?</p>
             <div class="clock">
@@ -42,12 +42,14 @@
         </div>
     </main>
     <footer class="container bg-main-color">
-        <div class="row">
-            SOCIAL 
+        <div class="row bottom">
+            <div class="row-short-bottom">
+                <nav>navigation</nav>
+                <img class="logo-bottom" src="./img/logo-white.png" alt="Logo white color">
+                <span>BOTTOM TEXTS</span>  
+            </div>
         </div>
-        <div class="row-short">
-            BOTTOM TEXTS 
-        </div>
+       
     </footer>
 
     <script src="./js/main.js" type="module"></script>
