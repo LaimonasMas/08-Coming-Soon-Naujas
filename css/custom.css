@@ -5,8 +5,8 @@
     padding-bottom: var(--section-padding);
     background-image: url(../img/Hero-geras.png);
     background-size: cover;
-    background-attachment: fixed;
     background-position: bottom center;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
@@ -74,6 +74,10 @@ main p {
         color: var(--secondary-color);
         text-decoration-line: none;
     }
+
+main .form > .btn {
+    float: right;
+}
 
 /* footer */
 footer {
