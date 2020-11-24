@@ -57,15 +57,14 @@ footer.container {
         width: 100%;
         color: #fff;
         background-color: transparent;
-        border-color: #fff;
+        border-bottom-color: #fff;
     }
-    .hero .form > input::placeholder {
-        color: #fff;
-    }
+        .hero .form > input::placeholder {
+            color: #fff;
+        }
     .hero .form > .btn {
         float: none;
     }
-
 
 /* main content */
 main h2 {
