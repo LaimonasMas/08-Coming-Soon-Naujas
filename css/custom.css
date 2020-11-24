@@ -3,6 +3,11 @@
 /* layout */
 .container.hero {
     padding-bottom: var(--section-padding);
+    background-image: url(../img/Hero-geras.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    min-height: 100vh;
 }
 
 footer.container {
