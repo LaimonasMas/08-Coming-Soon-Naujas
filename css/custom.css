@@ -1,9 +1,10 @@
+  
 /* custom CSS - everything else, that wasn't styled with components css */
 
 /* layout */
 .container.hero {
     padding-bottom: var(--section-padding);
-    background-image: url(../img/Hero-geras.png);
+    background-image: url(../img/hero-image.jpg);
     background-size: cover;
     background-position: bottom center;
     background-attachment: fixed;
@@ -51,7 +52,7 @@ footer.container {
 }
 .hero .form {
     width: 90%;
-    margin-bottom: var(--hero-space);
+    margin: 0 5% var(--hero-space);
 }
     .hero .form > input {
         width: 100%;
@@ -106,8 +107,9 @@ footer {
         gap: 10px;
         padding: 10px 20px;
         border-bottom: 1px solid #fff;
+        position: relative;
     }
-    footer .fa {
+    footer .social.fa {
         display: inline-block;
         width: 40px;
         padding: 10px;
@@ -117,10 +119,15 @@ footer {
         border-radius: 50%;
         transition: all 0.5s;
     }
-        footer .fa:hover {
+        footer .social.fa:hover {
             background-color: #fff;
             color: var(--main-color);
         }
+    footer .btn.circle {
+        position: absolute;
+        top: -24px;
+        right: -13px;
+    }
     footer .text-trio {
         display: inline-block;
         width: 100%;
