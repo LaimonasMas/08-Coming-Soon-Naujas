@@ -4,15 +4,12 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
 
-# Coming soon
-### 19 group coming soon website project
+## Coming soon
+### Coming soon website project
 
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
-
-Site published at https://front-end-by-rimantas.github.io/19-grupe-coming-soon/
+Site published at https://laimonasmas.github.io/08-Coming-Soon-Naujas/
 
 Design: [Matrox coming soon](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
-
 
 ## Project features
 - responsive design
